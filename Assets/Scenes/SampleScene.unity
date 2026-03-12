@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 1429173525}
   - component: {fileID: 1429173524}
   - component: {fileID: 1429173523}
+  - component: {fileID: 1429173528}
   m_Layer: 0
   m_Name: Cube_AngularVelocity
   m_TagString: Untagged
@@ -562,6 +563,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1429173528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429173522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787e326db96ac1046b8d9f9321f77f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angularSpeed: 5
 --- !u!1 &1472742279
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +589,7 @@ GameObject:
   - component: {fileID: 1472742282}
   - component: {fileID: 1472742281}
   - component: {fileID: 1472742280}
+  - component: {fileID: 1472742285}
   m_Layer: 0
   m_Name: Cube_Torque
   m_TagString: Untagged
@@ -698,6 +713,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1472742285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472742279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1f34c52667a804fbf560d566213dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torque: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
